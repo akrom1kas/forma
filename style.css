@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(smile.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+#forma{
+    background-color: black;
+    border: 3px solid;
+    border-radius: 20px;
+    height: 470px;
+    text-align: center;
+    margin: 0 auto; 
+    width: 300px;
+   
+    
+} 
+   input{
+    border-bottom: 1px solid rgb(247, 101, 4);
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    background-color: black;
+    background: transparent;
+    height: 30px;
+    color: white;
+       
+   }
+input::placeholder{
+    color:white;
+  }
+h1{
+    background-color: white;
+    border-radius: 10px;
+    color:rgb(247, 101, 4);
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 10px;
+}
+
+label a{
+    color: white;
+    text-decoration:none;
+  
+}
+#label{
+    color:white;
+    font-size: smaller;
+   
+}
+#submit{
+    background-color:rgb(247, 101, 4);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 18px;
+    width: 240px;
+}
+
+#Reg button{
+    background-color:rgb(247, 101, 4);  
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;    
+}
+
+#forgot button{
+    background-color:rgb(247, 101, 4);  
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;     
+}
